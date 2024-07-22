@@ -7,5 +7,9 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 
 export default function App() {
-
+    return(
+    <div>
+        <About></About>
+    </div>
+    )
 }
