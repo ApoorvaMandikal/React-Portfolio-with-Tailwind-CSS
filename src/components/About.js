@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom"
 
 export default function About() {
   const workSectionRef = useRef(null);
@@ -39,10 +40,11 @@ export default function About() {
         <h2 className="text-white text-4xl mb-8">A little bit about me..</h2>
         <div
           id="aboutme"
-          className="flex items-center justify-center w-3/4 mx-auto mb-16"
+          className="flex flex-col items-center justify-center w-3/4 mx-auto mb-16"
         >
         
-          <div id="aboutme_p" className="relative text-red-500 flex-1">
+         
+        <div id="aboutme_p" className="relative text-red-500 flex-1 mb-3">
             <p>
               I am an ardent and highly focused Software Engineer, trying to
               navigate this dynamic and exciting world of technology. Having an eye
@@ -56,11 +58,26 @@ export default function About() {
               technologies, showcasing my commitment to transitioning seamlessly
               into a front-end role. Able to effectively self-manage during
               independent projects, as well as collaborate as part of a productive
-              team.
+              team. 
             </p>
+            
           </div>
+          <div id="linksection" className="text-gray-400"><p>I work mostly on React, Javascript, HTML & CSS and Tailwind CSS and done projects on the same. Along the way I have 
+                garnered a lot skills. Head to <Link to="/skills">
+            <button className="px-4 py-2 bg-green-500 text-white rounded cursor-pointer">
+              Skills
+            </button>
+          </Link> or <Link to="/projects">
+            <button className="px-4 py-2 bg-yellow-500 text-white rounded cursor-pointer">
+              Projects
+            </button>
+          </Link>
+                for details.
+            </p>
+            </div>
         </div>
         <hr className="border-t-2 border-white w-4/5 mx-auto my-16" />
+
 
         <div className="row flex flex-col md:flex-row work w-full">
           <div className="three columns header-col w-full md:w-1/3 text-center">
