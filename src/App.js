@@ -20,9 +20,9 @@ export default function App() {
       <div ref={skillsRef}>
         <Skills />
       </div>
-      {/* <div ref={projectsRef}>
+      <div ref={projectsRef}>
         <Projects />
-      </div> */}
+      </div>
     </div>
   );
 }

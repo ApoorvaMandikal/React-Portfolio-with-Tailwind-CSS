@@ -1,35 +1,58 @@
+import twitter from "./images/twitter.png"
+import interior from "./images/interior.jpg"
+import nasa from "./images/nasa-logo.jpg"
+import ipl from "./images/ipl.jpg"
+import har from "./images/HAR.jpg"
+import spacex from "./images/spacex.jpg"
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Twitter Clone",
+    subtitle: "React, Firebase, HTML & CSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A clone of Twitter built using the MERN stack. It includes features such as real-time notifications and user authentication.",
+    image: twitter, // Adjust the path as needed
+    link: "https://master--twitterclone-tweeter.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Interior Decor Website",
+    subtitle: "React, TailwindCSS",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "A stylish interior decor website showcasing various decoration ideas and trends.",
+    image: interior, // Adjust the path as needed
+    link: "https://styg-interior-decor.netlify.app/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Astronomy Picture of the Day",
+    subtitle: "React and NASA API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "A web application that displays the Astronomy Picture of the Day using the NASA API.",
+    image: nasa, // Adjust the path as needed
+    link: "https://github.com/ApoorvaMandikal/NASA_APOD",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "SpaceX API Project",
+    subtitle: "React and SpaceX API",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "A project showcasing SpaceX data using the SpaceX API. Includes details on rockets, launches, and more.",
+    image: spacex, // Adjust the path as needed
+    link: "https://github.com/ApoorvaMandikal/project_SpaceX",
+  },
+  {
+    title: "Human Activity Recognition",
+    subtitle: "Python and Machine Learning",
+    description:
+      "A machine learning project for recognizing human activities using sensor data.",
+    image: har, // Adjust the path as needed
+    link: "https://github.com/ApoorvaMandikal/human-activity-recognition",
+  },
+  {
+    title: "IPL Dataset",
+    subtitle: "Data Analysis",
+    description:
+      "An analysis project focusing on the Indian Premier League (IPL) dataset. Includes data visualizations and insights.",
+    image: ipl, // Adjust the path as needed
+    link: "https://github.com/ApoorvaMandikal/ipl-dataset",
   },
 ];
 
