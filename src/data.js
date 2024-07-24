@@ -51,10 +51,12 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
-];
+  { name: "React.js", level: "80%" },
+    { name: "Javascript", level: "90%" },
+    { name: "HTML & CSS", level: "95%" },
+    { name: "Tailwind CSS", level: "80%" },
+    { name: "SQL Server, PostGreSQL", level: "80%" },
+    { name: "Node.js", level: "70%" },
+    { name: "Git", level: "60%" },
+    { name: "Python", level: "40%" },
+  ];
