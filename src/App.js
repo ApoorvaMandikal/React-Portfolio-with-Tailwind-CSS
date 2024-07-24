@@ -1,5 +1,4 @@
-import React from "react";
-import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import React, {useRef} from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
@@ -8,13 +7,23 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 
 export default function App() {
-    return(
-        <Router>
-        <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </Router>
-    )
+    const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
+
+  const scrollToSection = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  return (
+    <div>
+      <About scrollToSection={scrollToSection} skillsRef={skillsRef} projectsRef={projectsRef} />
+      <div ref={skillsRef}>
+        <Skills />
+      </div>
+      {/* <div ref={projectsRef}>
+        <Projects />
+      </div> */}
+    </div>
+  );
 }
+
