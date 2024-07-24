@@ -30,16 +30,6 @@ export default function Skills() {
             ))}
           </ul>
         </div>
-        <div className="w-full md:w-1/2 p-4 mt-8 md:mt-0">
-          <div className="relative">
-            <button className="bg-gray-700 text-white py-2 px-4 rounded w-full" >
-            <a download="ApoorvaGMandikal.pdf" href="./resume/ApoorvaGMandikal.pdf">
-              Download My Resume!
-              </a>
-            </button>
-           
-          </div>
-        </div>
       </div>
     </section>
   );

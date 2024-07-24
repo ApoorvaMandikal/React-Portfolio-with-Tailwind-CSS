@@ -66,7 +66,7 @@ const About = ({ scrollToSection, skillsRef, projectsRef }) => {
             <p>
               I work mostly on React, Javascript, HTML & CSS and Tailwind CSS
               and done projects on the same. Along the way I have garnered a lot
-              skills. Head to
+              skills.
               <button
                 onClick={() => scrollToSection(skillsRef)}
                 className="mt-4 p-2 bg-blue-500 text-white rounded"
