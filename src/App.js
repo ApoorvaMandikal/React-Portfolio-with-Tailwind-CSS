@@ -23,6 +23,7 @@ export default function App() {
       <div ref={projectsRef}>
         <Projects />
       </div>
+      <Contact />
     </div>
   );
 }
