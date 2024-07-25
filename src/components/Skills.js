@@ -13,7 +13,7 @@ export default function Skills() {
       <h2 className="text-center text-4xl text-white mb-8">Skills</h2>
       <div className="flex flex-col items-center space-y-20">
         <div className="container mx-auto px-4 w-9/12">
-          <h3 className="text-2xl text-white mb-4">Skills</h3>
+          <h3 className="text-2xl text-white mb-4">Skills & Technologies</h3>
           <ul className="space-y-4 mt-4">
             {skills.map((skill, index) => (
               <li key={index} className="relative bg-gray-900 h-4 rounded mt-1">

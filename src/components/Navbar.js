@@ -3,6 +3,7 @@ import React from "react";
 
 export default function Navbar({ scrollToSection, aboutRef, skillsRef, projectsRef, contactRef }) {
     return (
+      <header>
         <nav className="bg-gray-800 p-4 fixed w-full z-10">
           <ul className="flex justify-end space-x-4">
             <li>
@@ -19,5 +20,6 @@ export default function Navbar({ scrollToSection, aboutRef, skillsRef, projectsR
             </li>
           </ul>
         </nav>
+        </header>
       );
 }

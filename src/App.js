@@ -33,6 +33,7 @@ export default function App() {
         <div ref={contactRef}>
           <Contact />
         </div>
+        <Testimonials/>
       </Router>
     </div>
   );

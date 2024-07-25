@@ -31,7 +31,7 @@ export default function Contact() {
     >
       <div className="mb-8">
         <h2 className="text-6xl sm:text-4xl text-white">Lets work together...</h2>
-        <p className="italic text-white">Hit me up!</p>
+        <p className="italic text-white">Hire me!</p>
       </div>
       <div className="flex flex-wrap flex-row justify-around w-7/12 space-y-4 sm:space-y-0 sm:space-x-4 h-1/2">
         <div className="flex flex-col space-y-4">
@@ -91,7 +91,7 @@ export default function Contact() {
         data-netlify="true"
         onSubmit={handleSubmit}
         className="w-full max-w-md mt-8 p-4 bg-white shadow-md rounded"
-      >
+      ><h2>Form</h2>
         <input type="hidden" name="form-name" value="contact" />
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">

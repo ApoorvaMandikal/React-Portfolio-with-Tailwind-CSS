@@ -9,7 +9,7 @@ export default function Projects() {
       className="text-center py-24 px-4 bg-cover bg-center bg-slate-700"
     >
       <h2 className="text-4xl font-semibold text-black mb-24 border-b-2 border-white mx-auto max-w-4xl">
-        These are some of my projects
+        Apps I've Built
       </h2>
 
       <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-xl mx-auto mb-24">
